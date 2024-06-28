@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Ignore the database file
+db.sqlite3
+
+# Ignore the virtual environment directory
+venv/
+ENV/
+env/
+
+# Ignore Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Ignore media files (if any)
+media/
+staticfiles/
+
+# Ignore node_modules (if using React or any Node.js based tools)
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore Pyre type checker
+.pyre/
